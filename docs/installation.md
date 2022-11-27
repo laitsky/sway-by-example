@@ -16,8 +16,8 @@ curl --proto '=https' --tlsv1.2 -sSf \
 
 To make sure the toolchain manager `fuelup` is properly installed, run the command `fuelup -V` in your terminal and look for the output. If it shows some number then you're good to go! 
 
-If there is a need to update the toolchain, you can run the command `fuelup toolchain install latest`. 
+If there is a need to update the toolchain, you can run the command `fuelup toolchain install latest` or `fuelup update`. 
 
-Use `fuelup check` to see if your tools are up to date. 
+Use `fuelup check` to see if your tools are up to date. To update `fuelup`, you can run the command `fuelup self update`. 
 
-You can also install the toolchain from the source by referring to the official documentation page [here](https://fuellabs.github.io/sway/v0.24.5/introduction/installation.html).
+You can also install the toolchain from the source by referring to the official documentation page [here](https://fuellabs.github.io/fuelup/master/installation/index.html).
